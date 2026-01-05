@@ -13,12 +13,13 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-crosscloud-backup-punenew"
-  location = "Central India"
+  name     = var.resource_group_name
+  location = var.location
+
 }
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "swapnilbackupacctcbzanup"
+  name                     = var.storage_account_name
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
@@ -28,7 +29,7 @@ resource "azurerm_storage_account" "storage" {
 }
 
 resource "azurerm_storage_container" "backup" {
-  name                  = "s3backup"
+  name                  = var.container_name
   storage_account_name  = azurerm_storage_account.storage.name
   container_access_type = "private"
 }
