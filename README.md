@@ -57,9 +57,10 @@ Here are the images -
 <img width="1918" height="962" alt="azure blob" src="https://github.com/user-attachments/assets/d236efe0-1629-4968-9469-562f33c571a8" />
 
 
-6) Info of transfered file from AWS S3 to Azure Blob Storage.
+6) Logs of transfered file from AWS S3 to Azure Blob Storage.
 
 <img width="768" height="100" alt="Transfer" src="https://github.com/user-attachments/assets/c74a50c5-98bb-4fad-8c7b-d557ae6007d6" />
+
 
 
 
