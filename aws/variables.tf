@@ -1,12 +1,13 @@
 variable "aws_region" {
   description = "AWS region where resources will be created"
   type        = string
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }
 
 variable "s3_bucket_name" {
   description = "Existing S3 bucket name to back up"
   type        = string
+  default     = "stark-swapnil-media "
 }
 
 variable "iam_role_name" {
