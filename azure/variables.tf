@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Name of the Azure Resource Group"
   type        = string
-  default     = "rg-crosscloud-backup-pune"
+  default     = "rg-crosscloud-backup-punenew"
 }
 
 variable "location" {
@@ -13,7 +13,7 @@ variable "location" {
 variable "storage_account_name" {
   description = "Name of the Azure Storage Account"
   type        = string
-  default     = "swapnilbackupacct"
+  default     = "swapnilbackupacctcbzanup"
 }
 
 variable "container_name" {
