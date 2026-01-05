@@ -1,3 +1,16 @@
+provider "aws" {
+        region = "us-west-2"
+        //shared_credentials_files = ["/home/anup/.aws/credentials"]
+        profile = "configs"
+        default_tags {
+            tags = {
+              name = "aws"
+            }
+    
+
+}
+}
+
 resource "aws_instance" "backup_ec2" {
   ami           = "ami-02b8269d5e85954ef" 
   instance_type = "t3.micro"
