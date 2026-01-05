@@ -37,5 +37,8 @@ It syncs data from an existing **AWS S3 bucket** to **Azure Blob Storage** every
 
 Here are the images -
 
+<img width="1919" height="879" alt="aws s3" src="https://github.com/user-attachments/assets/e5f2b51c-9e66-4238-8bf5-6d5ec72d77a3" />
+
+
 
 
