@@ -13,7 +13,7 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-crosscloud-backup-pune"
+  name     = "rg-crosscloud-backup-punenew"
   location = "Central India"
 }
 
