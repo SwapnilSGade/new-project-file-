@@ -6,4 +6,4 @@ apt-get install -y unzip cron
 curl https://rclone.org/install.sh | bash
 
 # Configure cron job (every 4 hours)
-echo "0 */4 * * * root rclone sync s3:my-existing-bucket azureblob:s3backup --progress" >> /etc/crontab
+echo "0 */4 * * * root rclone sync s3:stark-swapnil-media azureblob:s3backup --progress" >> /etc/crontab
