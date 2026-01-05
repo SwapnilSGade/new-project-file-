@@ -1,10 +1,10 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-crosscloud-backup"
-  location = "East US"
+  name     = "rg-crosscloud-backup-pune"
+  location = "Central India"
 }
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "crosscloudstorageacct"
+  name                     = "swapnilbackupacct"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
