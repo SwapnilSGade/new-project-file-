@@ -22,8 +22,8 @@ resource "aws_iam_policy" "s3_read_policy" {
       Action   = ["s3:GetObject", "s3:ListBucket"],
       Effect   = "Allow",
       Resource = [
-        "arn:aws:s3:::my-existing-bucket",
-        "arn:aws:s3:::my-existing-bucket/*"
+        "arn:aws:s3:::stark-swapnil-media",
+        "arn:aws:s3:::stark-swapnil-media/*"
       ]
     }]
   })
